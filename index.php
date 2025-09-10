@@ -15,7 +15,7 @@ require_once "function/helpers.php";
 $configFile = 'settings.ini';
 $defaultConfig = [
     'SETTINGS' => [
-        'BOT_TOKEN' => 'PASTE YOUR BOT TOKEN HERE'
+        'BOT_TOKEN' => '8474117425:AAG51ql0gVILGYfS2C4BV0TR7lptvgypuso'
     ]
 ];
 
@@ -103,3 +103,4 @@ switch (true) {
         handleUnknownCommand($chatId, $message_id);
         break;
 }
+
